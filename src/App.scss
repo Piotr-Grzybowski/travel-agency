@@ -1,0 +1,16 @@
+.switchWrapper {
+  position: relative;
+
+  > :first-child ~ * {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    animation-name: slideUp;
+    animation-duration: 1s;
+  }
+}
+
+@keyframes slideUp {
+  from {top: 200px}
+  to {top: 0;}
+}
