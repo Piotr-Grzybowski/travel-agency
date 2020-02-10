@@ -1,1 +1,9 @@
 @import '../../../styles/settings.scss';
+
+.component {
+  background: lighten($color-dark, 70%);
+  width: 120em;
+  margin: auto;
+  padding: ($base-size * 3) $base-size * 3;
+  border-radius: $radius;
+}

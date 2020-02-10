@@ -53,5 +53,23 @@
       "min": 0,
       "max": 6
     }
+  },
+  {
+    "id": "name",
+    "name": "Your name",
+    "type": "text",
+    "placeholder": "What's your name?"
+  },
+  {
+    "id": "contact",
+    "name": "Contact info (phone, email, etc.)",
+    "type": "text",
+    "placeholder": "Contact info (email, phone etc.)"
+  },
+  {
+    "id": "start-date",
+    "name": "Preferred trip start",
+    "type": "date",
+    "placeholder": "Choose starting day of your trips"
   }
 ]
